@@ -1,0 +1,5 @@
+  rm int2
+  rm c01.o
+  gcc -c c01.c
+  gcc -o int2 c01.o ../cprini.o -lm 
+  ./int2
